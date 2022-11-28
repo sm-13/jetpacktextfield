@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 fun BasicTextfield(
     basictext: String
 ){
-
+//    HERE BASICTEXT IS NOT MUTABLE
     TextField(
         modifier = Modifier.fillMaxWidth(),
         value = basictext,
@@ -18,3 +18,5 @@ fun BasicTextfield(
         }
     )
 }
+
+// MY GOAL IS CREATE ONE COMPONENT FOR SAME UI, AND USE IT FOR DIFFERENT PURPOSE.
